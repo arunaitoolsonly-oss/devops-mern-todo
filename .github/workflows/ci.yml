@@ -33,7 +33,7 @@ jobs:
       - name: Seed MongoDB
         working-directory: ./backend
         run: | 
-          npm insatll
+          npm install
           node seedTaskData.js
   test:
     runs-on: ubuntu-latest
