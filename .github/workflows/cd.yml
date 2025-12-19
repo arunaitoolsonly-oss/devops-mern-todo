@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-lateast
+    runs-on: ubuntu-latest
 
     steps:
       - name: Deploy via SSH
